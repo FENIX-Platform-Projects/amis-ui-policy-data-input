@@ -1,0 +1,321 @@
+<div class="row">
+<div class="col-lg-6">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="field1" class="col-sm-2 control-label">Metadata Id</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field1" name='metadataId' placeholder="Id"
+                       value="<%= p ? p.get('metadataId') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field2" class="col-sm-2 control-label">Policy Id</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field2" name='policyId' placeholder="policyId"
+                       value="<%= p ? p.get('policyId') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field3" class="col-sm-2 control-label">Cpl Id</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field3" name='cplId' placeholder="cplId"
+                       value="<%= p ? p.get('cplId') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field4" class="col-sm-2 control-label">Commodity Id</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field4" name='commodityId' placeholder="commodityId"
+                       value="<%= p ? p.get('commodityId') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field5" class="col-sm-2 control-label">Policy Element</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field5" name='policyElement' placeholder="policyElement"
+                       value="<%= p ? p.get('policyElement') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field6" class="col-sm-2 control-label">Start date</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field6" name='' placeholder="startDate"
+                       value="<%= p ? p.get('startDate') : 'startDate' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field7" class="col-sm-2 control-label">End Date</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field7" name='endDate' placeholder="endDate"
+                       value="<%= p ? p.get('endDate') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field8" class="col-sm-2 control-label">Units</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field8" name='units' placeholder="units"
+                       value="<%= p ? p.get('units') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field9" class="col-sm-2 control-label">Value</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field9" name='value' placeholder="value"
+                       value="<%= p ? p.get('value') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field10" class="col-sm-2 control-label">Value Text</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field10" name='valueText' placeholder="valueText"
+                       value="<%= p ? p.get('valueText') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field11" class="col-sm-2 control-label">Value Type</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field11" name='valueType' placeholder="valueType"
+                       value="<%= p ? p.get('valueType') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field12" class="col-sm-2 control-label">Exemptions</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field12" name='exemptions' placeholder="exemptions"
+                       value="<%= p ? p.get('exemptions') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field13" class="col-sm-2 control-label">Location Condition</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field13" name='locationCondition'
+                       placeholder="locationCondition"
+                       value="<%= p ? p.get('locationCondition') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field14" class="col-sm-2 control-label">Notes</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field14" name='notes' placeholder="notes"
+                       value="<%= p ? p.get('notes') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field15" class="col-sm-2 control-label"></label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field15" name='link' placeholder="link"
+                       value="<%= p ? p.get('link') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field16" class="col-sm-2 control-label">Source</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field16" name='source' placeholder="source"
+                       value="<%= p ? p.get('source') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field17" class="col-sm-2 control-label">Title of notice</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field17" name='titleOfNotice' placeholder="titleOfNotice"
+                       value="<%= p ? p.get('titleOfNotice') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field18" class="col-sm-2 control-label">Legal basis name</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field18" name='legalBasisName' placeholder="legalBasisName"
+                       value="<%= p ? p.get('legalBasisName') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field19" class="col-sm-2 control-label">Date of publication</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field19" name='dateOfPublication'
+                       placeholder="dateOfPublication"
+                       value="<%= p ? p.get('dateOfPublication') : '' %>">
+            </div>
+        </div>
+    </form>
+
+</div>
+<div class="col-lg-6">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="field20" class="col-sm-2 control-label">Imposed End date</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field20" name='imposedEndDate' placeholder="imposedEndDate"
+                       value="<%= p ? p.get('imposedEndDate') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field21" class="col-sm-2 control-label">Second Generation Specific</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field21" name='secondGenerationSpecific'
+                       placeholder="policyId"
+                       value="<%= p ? p.get('secondGenerationSpecific') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field22" class="col-sm-2 control-label">Benchmark Tax</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field22" name='benchmarkTax' placeholder="benchmarkTax"
+                       value="<%= p ? p.get('benchmarkTax') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field23" class="col-sm-2 control-label">Benchmark Product</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field23" name='benchmarkProduct'
+                       placeholder="benchmarkProduct"
+                       value="<%= p ? p.get('benchmarkProduct') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field24" class="col-sm-2 control-label">Tax Rate Biofuel</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field24" name='taxRateBiofuel' placeholder="taxRateBiofuel"
+                       value="<%= p ? p.get('taxRateBiofuel') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field25" class="col-sm-2 control-label">Tax Rate Benchmark</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field25" name='taxRateBenchmark'
+                       placeholder="taxRateBenchmark"
+                       value="<%= p ? p.get('taxRateBenchmark') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field26" class="col-sm-2 control-label">Start Tax Date</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field26" name='startDateTax' placeholder="startDateTax"
+                       value="<%= p ? p.get('startDateTax') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field27" class="col-sm-2 control-label">Benchmark Link</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field27" name='benchmarkLink' placeholder="benchmarkLink"
+                       value="<%= p ? p.get('benchmarkLink') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field28" class="col-sm-2 control-label">Original Dataset</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field28" name='originalDataset'
+                       placeholder="Original Dataset"
+                       value="<%= p ? p.get('originalDataset') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field29" class="col-sm-2 control-label">Type of change Code</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field29" name='typeOfChangeCode'
+                       placeholder="type Of Change Code"
+                       value="<%= p ? p.get('typeOfChangeCode') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field30" class="col-sm-2 control-label">Type of Change name</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field30" name='typeOfChangeName'
+                       placeholder="type Of Change Name"
+                       value="<%= p ? p.get('typeOfChangeName') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field31" class="col-sm-2 control-label">Measure Description</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field31" name='measureDescr'
+                       placeholder="measure Description"
+                       value="<%= p ? p.get('measureDescr') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field32" class="col-sm-2 control-label">Product Original HS</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field32" name='productOriginalHs'
+                       placeholder="productOriginalHs"
+                       value="<%= p ? p.get('productOriginalHs') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field33" class="col-sm-2 control-label">Product Original Name</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field33" name='productOriginalName'
+                       placeholder="productOriginalName"
+                       value="<%= p ? p.get('productOriginalName') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field34" class="col-sm-2 control-label">Implementaion Procedure</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field34" name='implementationProcedure'
+                       placeholder="implementationProcedure"
+                       value="<%= p ? p.get('implementationProcedure') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field35" class="col-sm-2 control-label">XS YearType</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field35" name='xsYeartype' placeholder="xsYeartype"
+                       value="<%= p ? p.get('xsYeartype') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field36" class="col-sm-2 control-label">Link Pdf</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field36" name='linkPdf' placeholder="linkPdf"
+                       value="<%= p ? p.get('linkPdf') : '' %>">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="field37" class="col-sm-2 control-label">Benchmark Link Pdf</label>
+
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="field37" name='benchmarkLinkPdf'
+                       placeholder="benchmarkLinkPdf"
+                       value="<%= p ? p.get('benchmarkLinkPdf') : '' %>">
+            </div>
+        </div>
+    </form>
+
+</div>
+</div>
